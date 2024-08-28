@@ -3,7 +3,7 @@ body{
 }
 
 .ig-post {
-    height: 600px;
+    height: 650px;
     width: 500px;
     background-color: white;
     margin: auto;
@@ -11,25 +11,34 @@ body{
 }
 
 .post-header {
-    border: dashed red; 2px;
-    height: 35px;
+    border: dashed red; 1px;
+    height: 40px;
     width: 500px;
 }
 
 .post-image {
-    border: dashed blue; 2px;
-    height: 300px;
+    border: dashed blue; 1px;
+    height: 350px;
     width: 500px;
+    
+}
+
+.post-image > img {
+    width: 500px;
+    height: auto;
+    margin-left: 0px;
 }
 
 .post-icon {
-    border: dashed green; 2px;
-    height: 35px;
-    width: 500px;
+    border: dashed green; 1px;
+    height: 40px;
+    width: 500px; 
 }
 
 .post-text {
-    border: dashed cyan; 2px;
+    border: dashed cyan; 1px;
     height: 200px;
-    width: 500px;
+    width: 500px; 
 }
+
+.post-text > 
