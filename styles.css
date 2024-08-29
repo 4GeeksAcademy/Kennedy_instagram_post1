@@ -16,6 +16,10 @@ body{
     width: 500px;
 }
 
+.post-header > fa-circle-user {
+    display: flex;
+}
+
 .post-image {
     border: dashed blue; 1px;
     height: 350px;
@@ -30,9 +34,39 @@ body{
 }
 
 .post-icon {
+    display: flex;
+    justify-content: flex-start;
     border: dashed green; 1px;
     height: 40px;
     width: 500px; 
+}
+
+.post-icon > .fa-heart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: red;
+}
+
+.post-icon > .fa-comment {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.post-icon > .fa-paper-airplane {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.post-icon > .fa-bookmark {
+    display: flex;
+    align-items: center;
+    margin-right: 100%;
+    justify-content: flex-start;
 }
 
 .post-text {
